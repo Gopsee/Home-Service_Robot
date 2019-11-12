@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #Launch turtlebot in MapMyWorld
-xterm  -e  " roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=$(rospack find my_robot)/world/MapMyWorld.world" &
+xterm  -e  " roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=$(rospack find my_robot)/world/world.world" &
 sleep 5
 
 #Launch Gmapping
